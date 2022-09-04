@@ -18,15 +18,13 @@ export default function History() {
                                     <h1>Wonderful History of BTR, NorthEast India</h1>
                                 </header>
                                 <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Voluptatem sunt ab culpa explicabo repudiandae corporis consectetur
-                                    enim sit magni accusamus exercitationem qui ratione, incidunt veniam laborum quae asperiores eum maxime.
+                                   The Bodoland Territorial Council was established in 2003 under the Sixth Schedule to the Indian Constitution, following the signing of a Memorandum of Settlement on February 10, 2003, between the Government of India, the Government of Assam, and the Bodo Liberation Tigers, to fulfill economic, educational, and linguistic aspirations, as well as the preservation of land-rights, socio-cultural, and ethnic identity of the Bodos; and to accelerate infrastructure development in the BTC area.
                                 </p>
-                                <p className="mb-5">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Voluptatem sunt ab culpa explicabo repudiandae corporis consectetur
-                                    enim sit magni accusamus exercitationem qui ratione, incidunt veniam laborum quae asperiores eum maxime.
-                                </p>
+//                                 <p className="mb-5">
+//                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+//                                     Voluptatem sunt ab culpa explicabo repudiandae corporis consectetur
+//                                     enim sit magni accusamus exercitationem qui ratione, incidunt veniam laborum quae asperiores eum maxime.
+//                                 </p>
                                 <a href="/read" className="readmore">Read More</a>
                             </article>
                         </div>
