@@ -6,7 +6,7 @@ export default function History2() {
             <section className="history">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-lg-6 flexCenter order-1">
+                        <div className="col-lg-6 flexCenter order-1 p-0">
                             <article>
                                 <header>
                                     <h1> BTR Hotels and Experience </h1>
