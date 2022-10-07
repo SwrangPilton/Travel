@@ -10,10 +10,10 @@ export default function NavbarNav() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto mb-2 mb-lg-0">
-                        <Nav.Link href="/">HOME</Nav.Link>
-                        <Nav.Link href="/popularplaces">POPULAR PLACES</Nav.Link>
-                        <Nav.Link href="#aboutus">ABOUT</Nav.Link>
-                        <Nav.Link href="#aboutus">CONTACTS</Nav.Link>
+                        <Nav.Link href="/popularplaces">PLACES</Nav.Link>
+                        <Nav.Link href="/populartours">TOURS</Nav.Link>
+                        <Nav.Link href="/#aboutus">ABOUT</Nav.Link>
+                        <Nav.Link href="/#contactus">CONTACTS</Nav.Link>
                         {user === null ? null : <Nav.Link href="/account">ACCOUNT</Nav.Link>}
                         {user === null ?
                             <Nav.Link
