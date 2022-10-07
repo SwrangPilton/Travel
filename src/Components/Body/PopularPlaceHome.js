@@ -1,15 +1,17 @@
-import { stockData } from "./Data"
+import stockData from "./Data"
+//! POPULAR PLACES COMPONENT
 export default function PopularPlaceHome() {
     return (
         <>
             <div className="container my-5">
                 <h1>Popular Places</h1>
-                <div className="row">
+                <div className="row text-truncate-container">
                     {stockData.map(data => (
                         <div key={data.id} className="col-lg-4 popularPlaceHome">
                             <img className="popularplace-home-img"  src={data.img1} alt="holiday pic" />
                             <h2 className="text-uppercase">{data.title}</h2>
                             <p>{data.content}</p>
+                            <a href={`/popularplaces/${data.id}`} className="btn bg-primary text-white">more</a>
                         </div>
                     ))}
                 </div>
